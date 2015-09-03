@@ -405,7 +405,7 @@ html, body {
     float: left;
     clear: both;
     max-width: 170px;
-    font-size: 10px;
+    font-size: 12px;
     text-transform: uppercase;
     color: #c4c4c4;
 }
@@ -430,7 +430,15 @@ html, body {
     min-height: 135px;
 }
 
+.sponsors {
+    border-top: 1px solid #c1c1c1;
+    text-align: center;
+}
 
+.sponsors img {
+    padding-top: 10px;
+    height: 100px;
+}
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
@@ -447,6 +455,10 @@ html, body {
     #map {
         height: 100%;
     }
+
+    .quotes {
+        padding-left: 40px;
+    }
 }
 
 @media(max-width:767px){
@@ -461,6 +473,10 @@ html, body {
 
     #map {
         height: 100%;
+    }
+
+    .quotes {
+        padding-left: 40px;
     }
 }
 
